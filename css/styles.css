@@ -178,29 +178,106 @@ main > .section3 {
     width: 23.3rem;
 }
 
-.section3 > div:nth-of-type(1) {
+.section3 > .box1 {
     background-color: rgb(192, 216, 231);
 }
 
-.section3 > div:nth-of-type(2) {
+.section3 > .box2 {
     background-color: rgb(255, 255, 255);
 }
 
-.section3 > div:nth-of-type(3) {
+.box2 > h2 {
+    color: rgb(163, 163, 163);
+    font-size: 35px;
+    margin-left: 2rem;
+}
+
+.box2 > p {
+    color: rgb(86, 86, 86);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.section3 > .box3 {
     background-color: rgb(232, 232, 232);
 }
 
-.section3 > div:nth-of-type(4) {
+.box3 > h2 {
+    color: rgb(150, 150, 150);
+    font-size: 35px;
+    margin-left: 2rem;
+}
+
+.box3 > p {
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.section3 > .box4 {
     background-color: rgb(255, 255, 255);
 }
 
-.section3 > div:nth-of-type(5) {
+.box4 > h2 {
+    color: rgb(163, 163, 163);
+    font-size: 35px;
+    margin-left: 2rem;
+}
+
+.box4 > p {
+    color: rgb(86, 86, 86);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.section3 > .box5 {
     background-color: rgb(239, 110, 64);
 }
 
-.section3 > div:nth-of-type(6) {
+.box5 > h2 {
+    color: rgb(144, 79, 50);
+    font-size: 35px;
+    margin-left: 2rem;
+}
+
+.box5 > p {
+    color: rgb(75, 38, 22);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6.5rem;
+}
+
+.section3 > .box6 {
     background-color: rgb(255, 255, 255);
 }
+
+.box6 > h2 {
+    color: rgb(163, 163, 163);
+    font-size: 35px;
+    margin-left: 2rem;
+}
+
+.box6 > p {
+    color: rgb(86, 86, 86);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6.5rem;
+}
+
 
 .section3 > .box1 > h2 {
     color: black;
