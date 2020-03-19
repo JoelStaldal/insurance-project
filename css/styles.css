@@ -3,7 +3,6 @@ body {
 }
 
 .wrapper {
-    margin-left: 10rem;
     display: grid;
     height: 45rem;
     width: 70rem;
@@ -23,16 +22,47 @@ header {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background: rgb(249, 168, 43);
-    height: 40rem;
-    width: 35rem;
 }
 
-aside > .asideinner {
+aside > .asideinner1 {
     background: rgb(239, 110, 64);
     height: 20rem;
     width: 35rem;
+    justify-content: flex-start;
+}
+
+.asideinner1 > p {
+    margin-top: 7rem;
+    font-size: 14px;
+}
+
+.asideinner1 > h2 {
+    color: white;
+    font-size: 35px;
+    margin-top: 1rem;
+}
+
+
+aside > .asideinner2 {
+    background: rgb(249, 168, 43);
+    height: 20rem;
+    width: 35rem;
+    justify-content: flex-end;
+    
+}
+
+.asideinner2 > p {
+    margin-top: 7rem;
+    font-size: 14px;
+}
+
+.asideinner2 > h2 {
+    color: white;
+    font-size: 35px;
+    margin-top: 1rem;
 }
 
 footer {
