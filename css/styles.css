@@ -140,6 +140,8 @@ main {
 }
 
 main > .section1 {
+    height: 45rem;
+    width: 70rem;
     background-color: rgb(168, 162, 159);
     display: grid;
     grid-template-columns: 50% 50%;
@@ -172,25 +174,47 @@ main > .section1 > p {
     font-weight: bold;
 }
 
-main > .card {
+main > .section2 > .card {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 1px solid black;
     position: relative;
-    bottom: 10rem;
+    bottom: 14rem;
 }
 
 .card > .card1 > p {
     color: rgb(163, 163, 163);
+    margin-top: -1rem;
 }
 
 .card > .card2 > p {
     color: rgb(163, 163, 163);
+    margin-top: -1rem;
+}
+
+.card > .card1 > p {
+    color: rgb(163, 163, 163);
+    margin-top: -0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.card > .card2 > p {
+    color: rgb(163, 163, 163);
+    margin-top: -0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .card > .card3 > p {
     color: rgb(163, 163, 163);
+    margin-top: -0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.card > .card3 > h1, h2, h3 {
+    margin-top: -1rem;
 }
 
 .card > .card1 > .card1inner {
@@ -266,12 +290,15 @@ main > .section2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 45rem;
+    width: 70rem;
 }
 
 main > .section2 > h2 {
     color: white;
     text-align: center;
     font-size: 3rem;
+    margin-top: -10rem;
 }
 
 main > .section2 > p {
@@ -304,6 +331,7 @@ main > .section3 {
     color: rgb(163, 163, 163);
     font-size: 35px;
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .box2 > p {
@@ -324,6 +352,7 @@ main > .section3 {
     color: rgb(150, 150, 150);
     font-size: 35px;
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .box3 > p {
@@ -344,6 +373,7 @@ main > .section3 {
     color: rgb(163, 163, 163);
     font-size: 35px;
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .box4 > p {
@@ -364,6 +394,7 @@ main > .section3 {
     color: rgb(144, 79, 50);
     font-size: 35px;
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .box5 > p {
@@ -382,6 +413,7 @@ main > .section3 {
     color: rgb(163, 163, 163);
     font-size: 35px;
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .box6 > p {
