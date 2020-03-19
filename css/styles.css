@@ -141,11 +141,36 @@ main {
 
 main > .section1 {
     background-color: rgb(168, 162, 159);
+    display: grid;
+    grid-template-columns: 50% 50%;
 } 
 
+main > .section1 > h2 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
 
+main > .section1 > p {
+    color: rgb(71, 69, 67);
+    margin-top: 8.5rem;
+    margin-right: 10rem;
+    margin-left: 5rem;
+}
 
+.section1 > h2 > button {
+    padding: 7px;
+    border-radius: 25px;
+    height: 3rem;
+    width: 9rem;
+    margin-top: 4rem;
+}
 
+.section1 > h2 > button > p {
+    font-weight: bold;
+}
 
 main > .section2 {
     background-color: rgb(239, 179, 75);
@@ -291,7 +316,7 @@ main > .section3 {
 footer {
     background-color: rgb(159, 151, 148);
     width: 70rem;
-    height: 5rem;
+    height: 8rem;
     text-align: center;
 }
 
@@ -299,4 +324,18 @@ footer > div {
     background-color: rgb(108, 106, 105);
     width: 70rem;
     height: 25rem;
+}
+
+footer > p:first-of-type {
+    font-size: 30px;
+    font-stretch: extra-condensed;
+    color: rgb(53, 51 ,50);
+    margin-top: 0;
+}
+
+footer p:last-of-type {
+    color: rgb(53, 51 ,50);
+    margin-top: -3rem;
+    font-size: 18px;
+    font-weight: bold;
 }
