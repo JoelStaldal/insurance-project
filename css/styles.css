@@ -507,14 +507,81 @@ body {
     align-items: center;
 }
 
+.wrapper2 > nav > p:last-of-type {
+    color: black;
+}
+
+.wrapper2 > nav > p {
+    color: rgb(139, 139, 139);
+}
+
+.wrapper2 > nav > a:link {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+}
+
+.wrapper2 > nav > a:visited {
+    color: rgb(139, 139, 139);
+}
+
+.wrapper2 > nav > a:link:hover {
+    text-decoration: underline;
+}
+
 .wrapper2 > main { 
     height: 45rem;
     background-color: rgb(168, 161, 158);
+    display: flex;
+    flex-direction: row;
 }
+
+.wrapper2 > main > h2 {
+    border: 1px solid black;
+    width: 35rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper2 > main > aside {
+    border: 1px solid black;
+    width: 35rem;
+}
+
+
+
 
 .wrapper2 > section {  
     height: 35rem;
+    background-image: url('/img/map_london.png');
+    
 }
+
+.wrapper2 > section > .yellowbox {
+    height: 15rem;
+    width: 22rem;
+    background-color: rgb(239, 179, 78);
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    border-style: ridge;
+}
+
+.wrapper2 > section > .yellowbox > h2 {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: 50px;
+    color: white;
+}
+
+.wrapper2 > section > .yellowbox > p {
+    color: white;
+    margin-left: 1.5rem;
+    margin-top: -2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
 
 .wrapper2 > footer {
     height: 25rem;
