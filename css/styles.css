@@ -529,31 +529,70 @@ body {
 }
 
 .wrapper2 > main { 
-    height: 45rem;
+    height: 40rem;
+    width: 70rem;
     background-color: rgb(168, 161, 158);
     display: flex;
     flex-direction: row;
 }
 
 .wrapper2 > main > h2 {
-    border: 1px solid black;
-    width: 35rem;
-    margin-top: 0;
+    width: 25rem;
+    margin-top: 8rem;
     margin-bottom: 0;
+    margin-left: 10rem;
+    font-size: 45px;
+    color: white;
 }
 
 .wrapper2 > main > aside {
-    border: 1px solid black;
     width: 35rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper2 > main > aside > p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.wrapper2 > main > aside > input:first-of-type {
+    height: 2.5rem;
+    margin-right: 12rem;
+    font-size: 20px;
+}
+
+.wrapper2 > main > aside > input:last-of-type {
+    height: 12rem;
+    margin-right: 12rem;
+    font-size: 20px;
+    text-align: start;
+}
+
+.wrapper2 > main > aside > input::placeholder {
+    color: black;
+}
+
+.wrapper2 > main > aside > button {
+    padding: 7px;
+    border-radius: 25px;
+    height: 3rem;
+    width: 9rem;
+    align-self: flex-end;
+    margin-right: 12rem;
+    margin-top: 2rem;
 }
 
 
-
+.wrapper2 > main > aside > button > p {
+    font-weight: bold;
+}
 
 .wrapper2 > section {  
     height: 35rem;
     background-image: url('/img/map_london.png');
-    
 }
 
 .wrapper2 > section > .yellowbox {
@@ -580,8 +619,6 @@ body {
     margin-top: -2.5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-
 
 .wrapper2 > footer {
     height: 25rem;
