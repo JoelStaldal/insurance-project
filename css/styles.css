@@ -558,22 +558,17 @@ body {
     margin-bottom: 4px;
 }
 
-.wrapper2 > main > aside > input:first-of-type {
+.wrapper2 > main > aside > input {
     height: 2.5rem;
     margin-right: 12rem;
     font-size: 20px;
 }
 
-.wrapper2 > main > aside > input:last-of-type {
-    height: 12rem;
-    margin-right: 12rem;
+#messagebox{
     font-size: 20px;
-    text-align: start;
+    margin-right: 12rem;
 }
 
-.wrapper2 > main > aside > input::placeholder {
-    color: black;
-}
 
 .wrapper2 > main > aside > button {
     padding: 7px;
@@ -612,6 +607,7 @@ body {
     font-size: 50px;
     color: white;
 }
+
 
 .wrapper2 > section > .yellowbox > p {
     color: white;
