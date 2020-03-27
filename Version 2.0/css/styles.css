@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(232, 232, 232);
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 240px 240px 60px 480px;
+    grid-template-areas: 
+    "leftheader righttopheader"
+    "leftheader rightbottomheader"
+    "nav nav"
+    "main main"
+}
+
+header#left {
+    grid-area: leftheader;
+    background: rgb(115, 115, 214);
+}
+
+header#righttop {
+    grid-area: righttopheader;
+    background: cadetblue;
+}
+
+header#rightbottom {
+    grid-area: rightbottomheader;
+    background: seashell;
+}
+
+nav {
+    grid-area: nav;
+    background: silver;
+}
+
+main {
+    grid-area: main;
+    background: gray;
+}
+
+main section.box {
+    border: 1px solid black;
+    height: 20rem;
+    position: relative;
+    top: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+main section article#box1 {
+    border: 1px solid red;
+    background: white;
+    min-width: 15rem;
+}
+
+main section article#box2 {
+    border: 1px solid red;
+    background: white;
+    min-width: 15rem;
+}
+
+main section article#box3 {
+    border: 1px solid red;
+    background: white;
+    min-width: 15rem;
+}
