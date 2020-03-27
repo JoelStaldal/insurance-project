@@ -68,6 +68,7 @@ main section.card article {
     background: white;
     min-width: 15rem;
     border-radius: 0.5rem;
+    border: 1px solid black;
 }
 
 section#about {
@@ -109,4 +110,31 @@ section#box article#box6 {
 footer {
     grid-area: footer;
     background-color: rgb(168, 162, 159);
+}
+
+@media screen and (max-width: 640px) {
+
+    nav {
+        display: none;
+    }
+
+    
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 480px 240px 240px 1200px 480px 1024px 200px;
+        grid-template-areas: 
+        "leftheader"
+        "righttopheader"
+        "rightbottomheader"
+        "main"
+        "sectionabout"
+        "sectionbox"
+        "footer";
+    }
+
+    section#box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
