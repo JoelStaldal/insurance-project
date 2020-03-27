@@ -8,41 +8,54 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 240px 240px 60px 480px;
+    grid-template-rows: 240px 240px 60px 480px 480px 500px 400px;
     grid-template-areas: 
     "leftheader righttopheader"
     "leftheader rightbottomheader"
     "nav nav"
     "main main"
+    "sectionabout sectionabout"
+    "sectionbox sectionbox"
+    "footer footer";
 }
 
 header#left {
     grid-area: leftheader;
-    background: rgb(115, 115, 214);
+    background:  rgb(192, 216, 231);
 }
 
 header#righttop {
     grid-area: righttopheader;
-    background: cadetblue;
+    background: rgb(239, 110, 64);
 }
 
 header#rightbottom {
     grid-area: rightbottomheader;
-    background: seashell;
+    background: rgb(249, 168, 43);
 }
 
 nav {
     grid-area: nav;
-    background: silver;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+nav a:first-child {
+    color: black;
 }
 
 main {
     grid-area: main;
-    background: gray;
+    background-color: rgb(168, 162, 159);
 }
 
-main section.box {
-    border: 1px solid black;
+main section.card {
     height: 20rem;
     position: relative;
     top: 20rem;
@@ -51,21 +64,49 @@ main section.box {
     justify-content: space-evenly;
 }
 
-
-main section article#box1 {
-    border: 1px solid red;
+main section.card article {
     background: white;
     min-width: 15rem;
+    border-radius: 0.5rem;
 }
 
-main section article#box2 {
-    border: 1px solid red;
-    background: white;
-    min-width: 15rem;
+section#about {
+    grid-area: sectionabout;
+    background: rgb(249, 168, 43);
 }
 
-main section article#box3 {
-    border: 1px solid red;
+section#box {
+    grid-area: sectionbox;
     background: white;
-    min-width: 15rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section#box article#box1 {
+    background:  rgb(192, 216, 231);
+}
+
+section#box article#box2 {
+    background: white;
+}
+
+section#box article#box3 {
+    background-color: rgb(232, 232, 232);
+}
+
+section#box article#box4 {
+    background: white;
+}
+
+section#box article#box5 {
+    background: rgb(239, 110, 64);
+}
+
+section#box article#box6 {
+    background: white;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(168, 162, 159);
 }
