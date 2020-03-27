@@ -56,19 +56,18 @@ main {
 }
 
 main section.card {
-    height: 22rem;
     position: relative;
-    top: 18rem;
+    top: 19rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    grid-auto-rows: 320px;
+    gap: 2rem;
     padding: 1rem 4rem;
 }
 
 main section.card article {
     background: white;
     border-radius: 0.5rem;
-    border: 1px solid black;
 }
 
 section#about {
@@ -133,6 +132,9 @@ footer {
 
     main section.card {
         grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 220px;
+        padding: 7rem;
+        
     }
 
     section#box {
