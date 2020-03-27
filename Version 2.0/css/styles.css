@@ -56,17 +56,17 @@ main {
 }
 
 main section.card {
-    height: 20rem;
+    height: 22rem;
     position: relative;
-    top: 20rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    top: 18rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem 4rem;
 }
 
 main section.card article {
     background: white;
-    min-width: 15rem;
     border-radius: 0.5rem;
     border: 1px solid black;
 }
@@ -118,8 +118,6 @@ footer {
         display: none;
     }
 
-    
-
     .container {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 480px 240px 240px 1200px 480px 1024px 200px;
@@ -131,6 +129,10 @@ footer {
         "sectionabout"
         "sectionbox"
         "footer";
+    }
+
+    main section.card {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     section#box {
